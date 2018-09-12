@@ -16,9 +16,19 @@ function addElementToBeginningOfArray() {
   return array
 }
 
-function destructivelyAddElementToBeginningOfArray() {
+function destructivelyAddElementToEndOfArray() {
   const array = [1];
-  const newArray = array.unshift('foo');
+  const newArray = array.push('foo');
   return array
 }
- 
+function addElementToEndOfArray() {
+  const array = [1];
+  array.unshift('foo');
+  return array
+}
+
+function destructivelyAddElementToBeginningOfArray() {
+  const array = [1];
+  const newArray = array.push('foo');
+  return array
+} 
