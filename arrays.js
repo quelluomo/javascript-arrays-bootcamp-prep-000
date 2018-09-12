@@ -18,8 +18,8 @@ function addElementToBeginningOfArray() {
 
 function destructivelyAddElementToBeginningOfArray() {
   const array = [1];
-  const newArray = ['foo', ...array]
-  return newArray
+  array.unshift('foo');
+  return array
 }
 
 function addElementToEndOfArray() {
