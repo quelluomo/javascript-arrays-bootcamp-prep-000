@@ -13,10 +13,12 @@ cities.unshift("Philadelphia")
 function addElementToBeginningOfArray() {
   const array = [1];
   array.unshift('foo');
+  return array
 }
 
 function destructivelyAddElementToBeginningOfArray() {
   const array = [1];
   const newArray = ['foo'];
+  return array
 }
  
