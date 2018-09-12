@@ -31,15 +31,16 @@ function addElementToEndOfArray() {
 function destructivelyAddElementToEndOfArray() {
   const array = [1];
   const newArray = array.push('foo');
-  return array
+  return array;
 } 
 
 function accessElementInArray() {
-  var array = [1, 2, 3]
-  return array[2]
+  var array = [1, 2, 3];
+  return array[2];
 }
 function destructivelyRemoveElementFromBeginningOfArray(){
-  const array = [1, 2, 3]
-  array.shift()
+  const array = [1, 2, 3];
+  array.shift();
   return array
 }
+function 
