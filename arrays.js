@@ -11,7 +11,7 @@ var cities = ["New York", "San Francisco"]
 cities.unshift("Philadelphia")
 
 function addElementToBeginningOfArray(array, element) {
-  ['foo', ...array];
+  [element, ...array];
   return array
 }
 
