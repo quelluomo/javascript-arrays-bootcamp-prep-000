@@ -10,8 +10,8 @@ superheroines.push("wonder woman")
 var cities = ["New York", "San Francisco"]
 cities.unshift("Philadelphia")
 
-function addElementToBeginningOfArray(array, foo) {
-  ["foo", array];
+function addElementToBeginningOfArray() {
+  ['foo', ...array];
   return array
 }
 
