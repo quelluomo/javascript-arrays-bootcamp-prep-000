@@ -50,7 +50,6 @@ function removeElementFromBeginningOfArray() {
 }
 function destructivelyRemoveElementFromEndOfArray() {
   const array = [1, 2, 3]
-  array.slice(-2);
-  const array = array.slice(-2);
+  array.pop(-2);
   return array
 }
