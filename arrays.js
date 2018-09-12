@@ -33,3 +33,8 @@ function destructivelyAddElementToEndOfArray() {
   const newArray = array.push('foo');
   return array
 } 
+
+function accessElementInArray() {
+  
+  return
+}
