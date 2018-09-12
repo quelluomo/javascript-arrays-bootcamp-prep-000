@@ -16,12 +16,9 @@ function addElementToBeginningOfArray() {
   return array
 }
 
-function destructivelyAddElementToBeginningOfArray() {
+
+function destructivelyAddElementToBeginningOfArray(foo) {
   const array = [1];
-  const newArray = array.unshift('foo');
-  return array
-}
-function destructivelyAddElementToBeginningOfArray([array], 'foo') {
   array.unshift('foo')
   return array
 }
