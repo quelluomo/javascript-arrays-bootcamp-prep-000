@@ -20,20 +20,18 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
   return array;
 }
 
-function addElementToEndOfArray() {
-  const array = [1];
-  array.push('foo');
+function addElementToEndOfArray(array, element) {
+  [array, ...element]
   return array
 }
 
-function destructivelyAddElementToEndOfArray() {
-  const array = [1];
-  const newArray = array.push('foo');
+function destructivelyAddElementToEndOfArray(array, element) {
+  array.push(element);
   return array;
 } 
 
-function accessElementInArray() {
-  var array = [1, 2, 3];
+function accessElementInArray(array, element) {
+  [1, 2, 3];
   return array[2];
 }
 function destructivelyRemoveElementFromBeginningOfArray(){
