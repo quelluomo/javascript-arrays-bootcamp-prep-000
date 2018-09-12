@@ -3,16 +3,11 @@ var chocolateBars = [
   "hundred grand",
   "kitkat",
   "skittles",
-]
-var superheroines = ["catwoman", "she-hulk", "mystique"]
-superheroines.push("wonder woman")
-
-var cities = ["New York", "San Francisco"]
-cities.unshift("Philadelphia")
+];
 
 function addElementToBeginningOfArray(array, element) {
   [element, ...array];
-  return array
+  return array;
 }
 
 function destructivelyAddElementToBeginningOfArray(array, element) {
@@ -21,8 +16,8 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
 }
 
 function addElementToEndOfArray(array, element) {
-  [array, ...element]
-  return array
+  [array, ...element];
+  return array;
 }
 
 function destructivelyAddElementToEndOfArray(array, element) {
@@ -35,5 +30,5 @@ function accessElementInArray(array, index) {
 }
 function destructivelyRemoveElementFromBeginningOfArray(array){
   array.shift();
-  return array
+  return array;
 }
