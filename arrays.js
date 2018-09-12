@@ -35,6 +35,6 @@ function destructivelyAddElementToEndOfArray() {
 } 
 
 function accessElementInArray() {
-  
-  return
+  var array = [1, 2, 3]
+  return array
 }
