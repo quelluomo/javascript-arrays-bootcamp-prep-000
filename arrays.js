@@ -16,9 +16,9 @@ function addElementToBeginningOfArray() {
   return array
 }
 
-function destructivelyAddElementToEndOfArray() {
+function destructivelyAddElementToBeginningOfArray() {
   const array = [1];
-  const newArray = array.push('foo');
+  const newArray = array.unshift('foo');
   return array
 }
 function addElementToEndOfArray() {
@@ -27,7 +27,7 @@ function addElementToEndOfArray() {
   return array
 }
 
-function destructivelyAddElementToBeginningOfArray() {
+function destructivelyAddElementToEndOfArray() {
   const array = [1];
   const newArray = array.push('foo');
   return array
