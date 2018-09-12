@@ -29,12 +29,12 @@ function accessElementInArray(array, index) {
   return array[2];
 }
 function destructivelyRemoveElementFromBeginningOfArray(array){
- var newArray = array.slice();
-  return newArray;
+ array.shift();
+  return array;
 }
 function removeElementFromBeginningOfArray(array){
-  array.slice(1);
-  return array;
+  var newArray = array.slice(1);
+  return newArray;
 }
 function destructivelyRemoveElementFromEndOfArray(array){
 array.pop();
