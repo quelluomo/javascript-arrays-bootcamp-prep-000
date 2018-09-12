@@ -49,7 +49,7 @@ function removeElementFromBeginningOfArray() {
   return array
 }
 function destructivelyRemoveElementFromEndOfArray() {
-  const array = [1, 2, 3]
+  const newArray = [1, 2, 3]
   array.slice(-2);
   
 }
